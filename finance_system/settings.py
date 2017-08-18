@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '=kp^_(1u+29$0vd#4=4m)deyy!pfu4+k%4t!5!kp7nbj-&_##3'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'authtools',
     'rest_framework',
     'rest_framework.authtoken',
+    'rest_framework_docs',
 
     #own
     'accounts',
@@ -147,6 +148,10 @@ REST_FRAMEWORK = {
     ),
     'PAGE_SIZE': 10,
     'DEFAULT_VERSIONING_CLASS': 'rest_framework.versioning.NamespaceVersioning'
+}
+
+REST_FRAMEWORK_DOCS = {
+    'HIDE_DOCS': False
 }
 
 
