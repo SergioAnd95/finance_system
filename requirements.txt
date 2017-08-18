@@ -26,4 +26,5 @@ requests==2.13.0
 simplejson==3.10.0
 six==1.10.0
 uritemplate==3.0.0
+whitenoise==3.3.0
 wrapt==1.10.10
