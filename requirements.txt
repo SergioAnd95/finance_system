@@ -2,6 +2,7 @@ appdirs==1.4.3
 astroid==1.4.9
 coreapi==2.3.0
 coreschema==0.0.4
+dj-database-url==0.4.2
 Django==1.10.1
 django-authtools==1.5.0
 django-crispy-forms==1.6.1
